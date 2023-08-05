@@ -1,0 +1,169 @@
+.section {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__container {
+        max-width: 1280px;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+
+    &__h3 {
+        font-family: "Rubik";
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;        
+    }
+
+    &__df {
+        display: flex;
+        align-items: center;
+    }
+
+
+    &__cal {
+        display: flex;
+        align-items: center;
+    }
+
+    &__ti1 {
+        font-family: "Rubik";
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 434px;
+    }
+
+    &__ti2 {
+        font-family: "Rubik";
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 507px;
+    }
+
+    &__ti3 {
+        font-family: "Rubik";
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 523px;
+    }
+
+    &__ti4 {
+        font-family: "Rubik";
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 434px;
+    }
+
+    &__ti5 {
+        font-family: "Rubik";
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 507px;
+    }
+
+    &__ti6 {
+        font-family: "Rubik";
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 523px;
+    }
+
+    &__tex1 {
+        width: 512px;
+        font-family: "Rubik";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0;
+    }
+
+    &__tx {
+        margin-left: 15px;
+    }
+
+    &__lin {
+        font-family: "Rubik";
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        background-color:
+            rgba(41, 80, 147, 1);
+        padding: 5px 8px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+
+    &__samiye {
+        font-family: "Rubik";
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    &__fakt {
+        font-family: "Rubik";
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 347px;
+    }
+
+    &__pm {
+        font-family: "Rubik";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    &__df--2 {
+        background-color:
+            rgba(246, 246, 249, 1);
+        display: inline-block;
+    }
+
+}
+
+.fd {
+    margin-bottom: 60px;
+}
+
+.hr {
+    border-bottom: 3px solid gray;
+}
+
+.img {
+    margin-top: 60px;
+}

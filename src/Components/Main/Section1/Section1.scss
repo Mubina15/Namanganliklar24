@@ -1,0 +1,203 @@
+.section {
+
+    &__div {
+        max-width: 1280px;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+
+    &__sec {
+        display: flex;
+        align-items: center;
+        padding: 8px;
+    }
+
+    &__flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgba(246, 246, 249, 1);
+    }
+
+    &__title1 {
+        width: 261px;
+        font-family: "Rubik";
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;       
+    }
+
+    &__title2 {
+        width: 161px;
+        font-family: "Rubik";
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left; 
+    }
+
+    &__title3 {
+        width: 123px;
+        font-family: "Rubik";
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left; 
+    }
+
+    &__title4 {
+        width: 70px;
+        font-family: "Rubik";
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left; 
+    }
+
+    &__span1 {
+        color: red;
+    }
+
+    &__span2 {
+        color: green;
+    }
+
+    &__cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+
+    &__card {
+        margin-right: 18px;
+    }
+
+    &__card--title1 {
+        font-family: "Rubik";
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 380px;      
+    }
+
+    &__card--title2 {
+        font-family: "Rubik";
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 370px;        
+    }
+
+    &__card--title3 {
+        font-family: "Rubik";
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 291px;        
+    }
+
+    &__card--title4 {
+        font-family: "Rubik";
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 320px;        
+    }
+
+    &__card--title5 {
+        font-family: "Rubik";
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 333px;        
+    }
+
+    &__card--title6 {
+        font-family: "Rubik";
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 281px;        
+    }
+
+    &__card--text {
+        font-family: "Rubik";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;        
+    }
+
+    &__flex2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color:rgba(239, 186, 84, 0.18);
+    }
+
+    &__fl {
+        display: flex;
+        align-items: center;
+    }
+
+    &__tit {
+        font-family: "Rubik";
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;        
+    }
+
+    &__link {
+        font-family: "Rubik";
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        background-color: orange;
+        text-decoration: none;
+        padding: 5px 8px;
+        color: white;
+        border-radius: 5px;
+    }
+
+
+    &__fl--img {
+        padding-right: 10px;
+    }
+
+}
+
+.red {
+    border-left: 2px solid red;
+}
+
+.org {
+    border-left: 1px solid orange;
+}
+
+.img {
+    padding-right: 5px;
+}
